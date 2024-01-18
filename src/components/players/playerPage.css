@@ -1,0 +1,39 @@
+
+.player-card {
+    background-color: #4B4B4B;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    padding: 5px 10px;
+}
+.player-name {
+    color: #fff;
+    margin: auto;
+    background-color: #4B4B4B;
+}
+.player-win-money {
+    background-color: #4B4B4B;
+    color: #888888;
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+.player-win-money p {
+    color: #fff;
+    background-color: #4B4B4B;
+    font-size: 18px;
+}
+.player-avatar {
+    background-color: #4B4B4B;
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    .player-win-money {
+        gap: 7px;
+        font-size: 13px;
+    }
+    .player-card {
+        gap:30px;
+    }
+}

@@ -1,0 +1,239 @@
+p {
+    background: none;
+    margin: auto 5px ;
+    color: #1e1c1c;
+    font-size: 20px;
+}
+h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+h2 {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+h3 {
+    color: white;
+    text-transform: uppercase;
+    font-family: monospace;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 15px 15px 0 0;
+    font-weight: bold;
+}
+
+.actual-tournament-title {
+    background-color: #0df503;
+}
+.completed-tournament-title {
+    background-color: #d01616;
+}
+.Card-title {
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    background: none;
+}
+.List-Group-Item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: silver;
+    font-size: 16px;
+    font-style: italic;
+    padding: 10px 20px;
+}
+.Card-Body {
+    background: none;
+}
+.Card {
+    background-color: #4d5154;
+    border-radius: 15px;
+}
+.tournament-info {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 25px;
+    color: #C0C0C0;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-style: italic;
+
+}
+.left-page {
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: #4d5154 ;
+}
+.tournament-info h4 {
+    color: white;
+    font-size: 30px;
+    font-style: normal;
+    background: none;
+}
+.ps-prize-money {
+    color: red;
+    font-size: 12px;
+    font-style: italic;
+}
+.cover-img img {
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.prize-found {
+    background-color: #33a833;
+    text-align: center;
+    margin: 0 auto 15px;
+    color: #e8e8e8;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+span {
+    background: none;
+    font-size: 25px;
+    color: white;
+}
+
+.second-place {
+    background: silver;
+    color: black;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: "Comic Sans MS", sans-serif;
+}
+.first-place {
+    background: goldenrod;
+    color: #33a833;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: "Comic Sans MS", sans-serif;
+}
+.third-place {
+    background: #AE8742;
+    color: #D0DED5;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: "Comic Sans MS", sans-serif;
+}
+.count-player {
+    font-size: 30px;
+    color: white;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+@media (min-width: 785px ) and (max-width: 1200px){
+    .tournament-info {
+        font-size: 15px;
+    }
+    .tournament-info h4 {
+        font-size: 22px;
+    }
+    .ps-prize-money {
+        font-size: 10px;
+    }
+    .left-page {
+        padding: 5px 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 575px ) and (max-width: 785px){
+    .tournament-info {
+        font-size: 10px;
+    }
+    .tournament-info h4 {
+        font-size: 15px;
+    }
+    .ps-prize-money {
+        font-size: 8px;
+    }
+    .left-page {
+        padding: 3px 6px;
+        margin-bottom: 6px;
+    }
+}
+
+@media (min-width: 385px ) and (max-width: 485px){
+    .List-Group-Item {
+        gap: 10px;
+        font-size: 12px;
+        padding: 3px;
+    }
+    p {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .Card-title {
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .tournament-info {
+        font-size: 15px;
+    }
+    .tournament-info h4 {
+        font-size: 20px;
+    }
+    .ps-prize-money {
+        font-size: 10px;
+    }
+    .left-page {
+        padding: 4px 8px;
+        margin-bottom: 8px;
+    }
+
+}
+
+
+@media (min-width: 300px ) and (max-width: 385px){
+    .List-Group-Item {
+        gap: 7px;
+        font-size: 10px;
+        padding: 2px;
+    }
+    p {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .Card-title {
+        font-size: 12px;
+    }
+    .button-more-information {
+        font-size: 10px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    .tournament-info {
+        font-size: 11px;
+    }
+    .tournament-info h4 {
+        font-size: 15px;
+    }
+    .ps-prize-money {
+        font-size: 8px;
+    }
+    .left-page {
+        padding: 3px 6px;
+        margin-bottom: 6px;
+    }
+}
