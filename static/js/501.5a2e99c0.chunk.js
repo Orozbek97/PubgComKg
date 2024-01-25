@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[501],{501:(a,e,p)=>{a.exports=p.p+"static/media/SpaceMono-Regular.8a2aa304d0bd5e41d186.ttf"}}]);

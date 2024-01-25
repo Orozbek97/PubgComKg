@@ -1,0 +1,2 @@
+.player-card{align-items:center;background-color:#4b4b4b;border-radius:16px;display:flex;flex-direction:row;gap:40px;padding:5px 10px}.player-name{background-color:#4b4b4b;color:#fff;margin:auto}.player-win-money{align-items:flex-end;background-color:#4b4b4b;color:#888;display:flex;gap:10px}.player-win-money p{color:#fff;font-size:18px}.player-avatar,.player-win-money p{background-color:#4b4b4b}@media (min-width:992px) and (max-width:1200px){.player-win-money{font-size:13px;gap:7px}.player-card{gap:30px}}
+/*# sourceMappingURL=458.8359b1ff.chunk.css.map*/

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[589],{589:(e,a,p)=>{e.exports=p.p+"static/media/SairaCondensed-Regular.9e926a7c524c795295e3.ttf"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[194],{194:(a,t,e)=>{a.exports=e.p+"static/media/Saira-VariableFont_wdth,wght.6a60c21d509f96e940c5.ttf"}}]);

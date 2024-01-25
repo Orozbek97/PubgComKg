@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[141],{141:(e,p,a)=>{e.exports=a.p+"static/media/RubikMonoOne-Regular.bca8f5015b00e4514972.ttf"}}]);
