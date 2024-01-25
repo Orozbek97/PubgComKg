@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './style.css';
-import {Container} from "react-bootstrap"; // Подключите ваш файл стилей здесь
 
 const BottomNavigationBar = () => {
     const [activeIcon, setActiveIcon] = useState('home');
