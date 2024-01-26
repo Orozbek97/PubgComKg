@@ -28,13 +28,13 @@
     font-size: 10px;
     color: #b7b7b7;
 }
-.active {
+.activee {
     transform: scale(1) translateY(-8px);
     background: linear-gradient(27deg, rgba(278,64,64,1) 0%, rgba(233,65,65,0.9837184873949579) 100%);
     color: white !important;
     border-radius: 20%;
 }
-.active p {
+.activee p {
     color: white;
 }
 .spacing {

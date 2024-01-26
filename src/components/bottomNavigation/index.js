@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
-import './style.css';
+import './index.css';
 
 const BottomNavigationBar = () => {
     const currentLocation = useLocation();
@@ -16,27 +16,27 @@ const BottomNavigationBar = () => {
             <div className={'spacing'}></div>
             <div className="bottom-bar">
                 <NavLink to="/" >
-                    <i className={`icon ion-home ${activeIcon === '' ? 'active' : ''}`}>
+                    <i className={`icon ion-home ${activeIcon === '' ? 'activee' : ''}`}>
                         <p>Главная</p>
                     </i>
                 </NavLink>
                 <NavLink to="/alltournaments">
-                    <ion className={`icon ion-android-people ${activeIcon === 'alltournaments' ? 'active' : ''}`} >
-                        <p>Главная</p>
+                    <ion className={`icon ion-android-people ${activeIcon === 'alltournaments' ? 'activee' : ''}`} >
+                        <p>Команды</p>
                     </ion>
                 </NavLink>
                 <NavLink to="/alltournaments">
-                    <i className={`icon ion-trophy ${activeIcon === 'alltournaments' ? 'active' : ''}`}>
+                    <i className={`icon ion-trophy ${activeIcon === 'alltournaments' ? 'activee' : ''}`}>
                         <p>Турниры</p>
                     </i>
                 </NavLink>
                 <NavLink to="/players">
-                    <i className={`icon ion-podium  ${activeIcon === 'players' ? 'active' : ''}`} >
+                    <i className={`icon ion-podium  ${activeIcon === 'players' ? 'activee' : ''}`} >
                         <p>Игроки</p>
                     </i>
                 </NavLink>
                 <NavLink to="/alltournaments" >
-                    <i className={`icon ion-android-menu ${activeIcon === 'alltournaments' ? 'active' : ''}`}>
+                    <i className={`icon ion-android-menu ${activeIcon === 'alltournaments' ? 'activee' : ''}`}>
                         <p>Меню</p>
                     </i>
                 </NavLink>
