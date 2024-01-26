@@ -1,6 +1,7 @@
 import React from 'react';
 import Container from "react-bootstrap/Container";
 import {Avatar} from "@mui/material";
+import BottomNavigationBar from "../bottomNavigation";
 import ("./playerPage.css");
 
 const Players = () => {
@@ -94,6 +95,7 @@ const Players = () => {
                         </div>
                     </div>
                 </div>
+                <BottomNavigationBar />
             </Container>
 
         </>

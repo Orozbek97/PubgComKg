@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 import {Button} from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Players from "./components/players/Players";
-import BottomNaviagtion from "./components/bottomNaviagtion";
+import BottomNavigationBar from "./components/bottomNavigation";
 
 const Main = () => {
     return (
@@ -42,7 +42,7 @@ const Main = () => {
                      marginBottom: '30px'
                  }}></div>
             <Players />
-            <BottomNaviagtion />
+            <BottomNavigationBar />
         </div>
     );
 };

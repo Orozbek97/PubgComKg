@@ -2,6 +2,7 @@ import React from 'react';
 import Container from "react-bootstrap/Container";
 import ActualTournaments from "./ActualTornaments";
 import CompletedTournaments from "./CompletedTournaments";
+import BottomNavigationBar from "../bottomNavigation";
 import ("./tournaments.css")
 
 const AllTournaments = () => {
@@ -22,6 +23,7 @@ const AllTournaments = () => {
                      margin: '35px 0'
                  }}></div>
             <CompletedTournaments />
+            <BottomNavigationBar />
         </Container>
     );
 };
