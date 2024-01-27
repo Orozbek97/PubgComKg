@@ -20,8 +20,8 @@ const BottomNavigationBar = () => {
                         <p>Главная</p>
                     </i>
                 </NavLink>
-                <NavLink to="/alltournaments">
-                    <ion className={`icon ion-android-people ${activeIcon === 'alltournaments' ? 'activee' : ''}`} >
+                <NavLink to="/teams">
+                    <ion className={`icon ion-android-people ${activeIcon === 'teams' ? 'activee' : ''}`} >
                         <p>Команды</p>
                     </ion>
                 </NavLink>
