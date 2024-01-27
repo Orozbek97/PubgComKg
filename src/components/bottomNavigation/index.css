@@ -57,12 +57,13 @@
     background-color: #3b3b3b;
     text-decoration: none;
    }
+
 .canvas-body p {
     color: white;
 }
-.canvas-tittle {
-    color: wheat;
-    margin-left: 20px;
+.btn-close {
+    background-color: #dc624c !important;
+    opacity: 100 !important;
 }
 
 

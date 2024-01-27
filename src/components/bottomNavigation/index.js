@@ -51,12 +51,12 @@ const BottomNavigationBar = () => {
                     </i>
                 </Button>
             </div>
-            <Offcanvas show={show} onHide={handleClose}>
-                <Offcanvas.Header closeButton>
-                    <Offcanvas.Title className={'canvas-tittle'}>Меню</Offcanvas.Title>
+            <Offcanvas show={show} onHide={handleClose} style={{width: '60%'}}>
+                <Offcanvas.Header closeButton style={{color: 'white'}}>
+                    <Offcanvas.Title>Меню</Offcanvas.Title>
                 </Offcanvas.Header>
-                <Offcanvas.Body className={'canvas-body'}>
-                    <p>dsgvdfgfd</p>
+                <Offcanvas.Body  className={'canvas-body'}>
+                    <p>Инструкция </p>
                 </Offcanvas.Body>
             </Offcanvas>
         </>

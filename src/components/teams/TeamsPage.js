@@ -7,17 +7,11 @@ const TeamsPage = () => {
         <div>
             <Header />
            <h1 style={{color: 'white',
-                       justifyContent:'center',
-                       position: "absolute",               /* 2 */
-                       top: "50%",
-                       right: "50%"
+                       textAlign:'center'
            }}> Упппсс</h1>
 
             <h3 style={{color: 'white',
-                        justifyContent:'center',
-                        position: "absolute",               /* 2 */
-                        top: "60%",
-                        right: "40%"
+                       textAlign: "center"
             }}> Эта функция еще на разработке </h3>
             <BottomNavigationBar />
         </div>
