@@ -19,11 +19,12 @@ h2 {
 h3 {
     color: white;
     text-transform: uppercase;
-    font-family: monospace;
+    font-family: SofiaSans ,sans-serif;
     text-align: center;
     padding: 5px 10px;
     border-radius: 15px 15px 0 0;
     font-weight: bold;
+
 }
 
 .actual-tournament-title {

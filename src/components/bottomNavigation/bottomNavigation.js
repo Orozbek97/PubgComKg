@@ -31,13 +31,13 @@ const BottomNavigationBar = () => {
                         <p>Команды</p>
                     </i>
                 </NavLink>
-                <NavLink to="/alltournaments">
-                    <i className={`icon ion-trophy ${activeIcon === 'alltournaments' ? 'activee' : ''}`}>
+                <NavLink to="/allTournaments">
+                    <i className={`icon ion-trophy ${activeIcon === 'allTournaments' ? 'activee' : ''}`}>
                         <p>Турниры</p>
                     </i>
                 </NavLink>
-                <NavLink to="/players">
-                    <i className={`icon ion-podium  ${activeIcon === 'players' ? 'activee' : ''}`} >
+                <NavLink to="/allPlayers">
+                    <i className={`icon ion-podium  ${activeIcon === 'allPlayers' ? 'activee' : ''}`} >
                         <p>Игроки</p>
                     </i>
                 </NavLink>

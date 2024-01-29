@@ -5,7 +5,8 @@ import {Link} from "react-router-dom";
 import {Button} from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Players from "./components/players/Players";
-import BottomNavigationBar from "./components/bottomNavigation";
+import BottomNavigationBar from "./components/bottomNavigation/bottomNavigation";
+import FactsPubg from "./components/factsAboutPubgMobile/FactsPubg";
 
 const Main = () => {
     return (
@@ -29,8 +30,9 @@ const Main = () => {
                                     className={'text-uppercase'}
                                     size={'lg'}
                                     style={{width: '100%',
-                                        borderRadius:'0 0 15px 15px',
-                                        marginBottom: "30px"
+                                            borderRadius:'15px',
+                                            marginBottom: "30px",
+                                            marginTop: '5px'
                                     }}> все туниры </Button></Link>
                     </div>
                 </div>
@@ -42,6 +44,31 @@ const Main = () => {
                      marginBottom: '30px'
                  }}></div>
             <Players />
+            <Container>
+                <div className="row row-cols-lg-3 row-cols-md-2 row-cols-1">
+                    <div className="col"></div>
+                    <div className="col"></div>
+                    <div className="col">
+                        <Link to={'/allPlayers'}>
+                            <Button variant={'success'}
+                                    className={'text-uppercase'}
+                                    size={'lg'}
+                                    style={{width: '100%',
+                                            borderRadius:'15px',
+                                            marginBottom: "30px",
+                                            marginTop: '5px'
+                                    }}> все туниры </Button>
+                        </Link>
+                    </div>
+                </div>
+            </Container>
+            <div className="line"
+                 style={{backgroundColor: "silver",
+                     width: "100%",
+                     height: "1px",
+                     marginBottom: '30px'
+                 }}></div>
+            <FactsPubg />z
             <BottomNavigationBar />
         </div>
     );

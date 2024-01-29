@@ -11,27 +11,28 @@ import ('./Header.css')
 function CollapsibleExample() {
 
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" data-bs-theme="dark">
             <Container>
-                <Navbar.Brand >
-                    <a href='/'>
-                     <img src={LogoImg} alt="Logo-site" width={'100%'} className={'logo'}/>
-                    </a>
-                </Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav" className={'my-1 icon-link-hover float-end'}>
-                    <Nav className="mx-auto">
-                        <Nav.Link href="/alltournaments">Турниры</Nav.Link>
-                        <Nav.Link href="#players">Игроки</Nav.Link>
-                        <Nav.Link href="#instruction">Инструкция</Nav.Link>
-                    </Nav>
-                    <Nav>
-                        <Link to={'/authorization'} > <Button variant={"danger"}> Вход / Регистрация </Button>  </Link>
-                    </Nav>
-                </Navbar.Collapse>
+                <div className="header">
+                    <div className="logo-img">
+                        <a href='/'>
+                            <img src={LogoImg} alt="Logo-site" width={'100%'} className={'logo'}/>
+                        </a>
+                    </div>
+                    <Link to={'/authorization'}  style={{textDecoration: 'none'}}>
+                        <Button variant={"primary"} className={'sign-button'}>
+                            <i className={`icon ion-android-person`} ></i>
+                            Войти
+                        </Button>
+                    </Link>
+                </div>
+                <div className="nav-links">
+                    <Nav.Link href="/alltournaments">Турниры</Nav.Link>
+                    |
+                    <Nav.Link href="/allplayers">Игроки</Nav.Link>
+                    |
+                    <Nav.Link href="#instruction">Инструкция</Nav.Link>
+                </div>
             </Container>
-        </Navbar>
-
     );
 }
 

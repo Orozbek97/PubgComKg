@@ -1,5 +1,5 @@
 import React from 'react';
-import BottomNavigationBar from "../bottomNavigation";
+import BottomNavigationBar from "../bottomNavigation/bottomNavigation";
 import Header from "../header/Header";
 
 const TeamsPage = () => {
