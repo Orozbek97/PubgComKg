@@ -57,6 +57,7 @@ const BottomNavigationBar = () => {
                 </Offcanvas.Header>
                 <Offcanvas.Body  className={'canvas-body'}>
                     <p>Инструкция </p>
+                    <p>О Нас </p>
                 </Offcanvas.Body>
             </Offcanvas>
         </>

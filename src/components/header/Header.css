@@ -21,6 +21,8 @@
        display: none;
    }
 }
+
+
 .header {
     display: flex;
     align-items: center;
@@ -38,6 +40,28 @@
     padding: 0 15px 0 5px;
     font-family: "Play Regular", sans-serif;
 }
+@media (max-width: 600px) {
+    .sign-button {
+        font-size: 13px;
+        padding: 0 9px 0 2px;
+        gap: 5px;
+    }
+    .sign-button .icon {
+        font-size: 17px;
+    }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+    .sign-button {
+        font-size: 15px;
+        padding: 0 10px 0 3px;
+        gap: 7px;
+    }
+    .sign-button .icon {
+        font-size: 20px;
+    }
+}
+
+
 @media (min-width: 200px) and (max-width: 300px) {
     .logo {
         width: 100px;
@@ -50,7 +74,7 @@
 }
 @media (min-width: 400px) and (max-width: 600px) {
     .logo {
-        width: 300px;
+        width: 270px;
     }
 }
 @media (min-width: 600px) and (max-width: 769px) {

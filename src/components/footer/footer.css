@@ -1,0 +1,45 @@
+.soc-links a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+.soc-links a:hover{
+    color: #c72e2e;
+}
+.logo-rules img {
+    width: 200px;
+}
+.rules {
+    color: #938d8d;
+    font-size: 15px;
+}
+.rules p {
+    color: #938d8d;
+    font-size: 15px;
+    font-family: "Play Regular", sans-serif;
+}
+.rules a {
+    color: #eee8e8;
+    font-size: 10px;
+    text-decoration: none;
+    font-family: "Play Regular", sans-serif;
+}
+.rules a:hover {
+    color: #c21919;
+    font-size: 10px;
+}
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    gap: 5px;
+}
+.footer-links a {
+    text-decoration: none;
+    color: white;
+    font-family: Oswald , sans-serif;
+    font-weight: 300;
+}
+.footer-links a:hover {
+    color: #c21919;
+}

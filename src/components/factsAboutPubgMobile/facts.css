@@ -1,31 +1,33 @@
-h4 {
-    color: white;
-    text-align: center;
-    font-family: SofiaSans , sans-serif;
-    font-size: 35px;
-    margin-bottom: 15px;
-}
+
 ul {
     color: white;
     font-style: italic;
     font-size: 20px;
     font-family: SofiaSans , sans-serif;
 }
-span {
+.nameFacts {
     color: #39bd39;
     font-size: 21px;
 }
 .Brandan {
     color: #EC3A2E;
+    font-size: 20px;
     font-weight: bold;
 }
 .nameTag {
     color: #A7661B;
     font-weight: bold;
+    font-size: 20px;
 }
 .facts-img img{
-   width: 80%;
-    height: 400px;
+   width: 70%;
     float: right;
 
+}
+.page-tittle {
+    color: white ;
+    text-align: center;
+    font-family: SofiaSans , sans-serif;
+    font-size: 35px ;
+    margin-bottom: 20px ;
 }

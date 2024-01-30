@@ -7,6 +7,7 @@ import Container from "react-bootstrap/Container";
 import Players from "./components/players/Players";
 import BottomNavigationBar from "./components/bottomNavigation/bottomNavigation";
 import FactsPubg from "./components/factsAboutPubgMobile/FactsPubg";
+import FooterPage from "./components/footer/Footer";
 
 const Main = () => {
     return (
@@ -68,7 +69,8 @@ const Main = () => {
                      height: "1px",
                      marginBottom: '30px'
                  }}></div>
-            <FactsPubg />z
+            <FactsPubg />
+            <FooterPage />
             <BottomNavigationBar />
         </div>
     );
