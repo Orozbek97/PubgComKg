@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[210],{210:(e,p,a)=>{e.exports=a.p+"static/media/SpaceMono-Bold.056ac3ebe5f65cb5c4ac.ttf"}}]);

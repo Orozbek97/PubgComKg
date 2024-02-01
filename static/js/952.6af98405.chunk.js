@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[952],{952:(a,p,t)=>{a.exports=t.p+"static/media/WorkSans-VariableFont_wght.a0297787a1a192213b53.ttf"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[762],{2762:(a,e,p)=>{a.exports=p.p+"static/media/Play-Bold.b78f3be6adabf73cde7f.ttf"}}]);
